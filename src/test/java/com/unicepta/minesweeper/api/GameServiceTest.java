@@ -19,7 +19,6 @@ class GameServiceTest {
     private static final int DEFAULT_HEIGHT = 5;
     private static final int DEFAULT_MINES_COUNT = 9;
 
-
     private final GameService gameService = new GameService();
 
     @Test

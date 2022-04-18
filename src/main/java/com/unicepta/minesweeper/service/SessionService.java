@@ -11,11 +11,16 @@ public class SessionService {
     private final Map<UUID, Board> boards = new ConcurrentHashMap<>();
 
     public Board addNewBoard(final Board board) {
-        return boards.put(board.getId(), board);
+        boards.put(board.getId(), board);
+        return board;
     }
 
     public Board getBoard(final String boardId) {
-        return boards.get(UUID.fromString(boardId));
+        return this.getBoard(UUID.fromString(boardId));
+    }
+
+    public Board getBoard(final UUID boardId) {
+        return boards.get(boardId);
     }
 
     public Board deleteBoard(final String boardId) {
@@ -26,4 +31,8 @@ public class SessionService {
         return boards.remove(boardId);
     }
 
+    // I don't like this, but I need it for tests
+    public Map<UUID, Board> getBoards() {
+        return boards;
+    }
 }
