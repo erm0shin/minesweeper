@@ -1,4 +1,4 @@
-package com.unicepta.minesweeper.api;
+package com.unicepta.minesweeper.dto;
 
 public class CreateGameRequest {
   public int width;

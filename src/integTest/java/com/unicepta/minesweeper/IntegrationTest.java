@@ -1,8 +1,8 @@
 package com.unicepta.minesweeper;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.unicepta.minesweeper.api.Board;
-import com.unicepta.minesweeper.api.CreateGameRequest;
+import com.unicepta.minesweeper.model.Board;
+import com.unicepta.minesweeper.dto.CreateGameRequest;
 import java.nio.charset.StandardCharsets;
 import org.apache.http.client.methods.HttpPost;
 

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.unicepta.minesweeper.api.MathUtilTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2022-04-18T20:51:55" hostname="daermoshin.nb.ipa.dataart.net" time="0.022">
+  <properties/>
+  <testcase name="[1] 5, 1, 1, 0" classname="com.unicepta.minesweeper.api.MathUtilTest" time="0.012"/>
+  <testcase name="[2] 5, 1, 2, 1" classname="com.unicepta.minesweeper.api.MathUtilTest" time="0.0"/>
+  <testcase name="[3] 5, 1, 5, 4" classname="com.unicepta.minesweeper.api.MathUtilTest" time="0.0"/>
+  <testcase name="[4] 5, 2, 1, 5" classname="com.unicepta.minesweeper.api.MathUtilTest" time="0.0"/>
+  <testcase name="[5] 5, 3, 3, 12" classname="com.unicepta.minesweeper.api.MathUtilTest" time="0.0"/>
+  <testcase name="[6] 5, 4, 3, 17" classname="com.unicepta.minesweeper.api.MathUtilTest" time="0.0"/>
+  <testcase name="[7] 5, 5, 5, 24" classname="com.unicepta.minesweeper.api.MathUtilTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
